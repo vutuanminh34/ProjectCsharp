@@ -1,0 +1,130 @@
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.exe
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DTO.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.exe.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DTO.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\itextsharp.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\itextsharp.xml
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DTO.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.exe
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\itextsharp.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\BUS.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DAL.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\DTO.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\GUI.exe.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\itextsharp.xml
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginForm.resources
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

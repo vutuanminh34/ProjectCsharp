@@ -1,0 +1,32 @@
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DTO.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DTO.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DTO.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\BUS.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DAL.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\bin\Debug\DTO.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

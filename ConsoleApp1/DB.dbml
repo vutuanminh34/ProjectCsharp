@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="namngu" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=namngu;Integrated Security=True" SettingsObjectName="ConsoleApp1.Properties.Settings" SettingsPropertyName="namnguConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblproduct8" Member="tblproduct8s">
+    <Type Name="tblproduct8">
+      <Column Name="product_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_brand" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_image" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="product_specification" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_feature" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_exprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="product_imprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="product_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="product_type_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

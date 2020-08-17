@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A4AB45D8-D71D-43D1-BDD9-5699D9165507}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=7.1.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.11\lib\net40\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerGUI\CustomerGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerGUI\CustomerGUI.designer.cs">
+      <DependentUpon>CustomerGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyReportGUI\DailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyReportGUI\DailyReport.Designer.cs">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DegreeGUI\DegreeGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DegreeGUI\DegreeGUI.designer.cs">
+      <DependentUpon>DegreeGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistributorGUI\DistributorMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistributorGUI\DistributorMain.designer.cs">
+      <DependentUpon>DistributorMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DistributorGUI\DistributorModifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistributorGUI\DistributorModifier.designer.cs">
+      <DependentUpon>DistributorModifier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportDetailGUI\ExportDetailMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportDetailGUI\ExportDetailMain.Designer.cs">
+      <DependentUpon>ExportDetailMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportGUI\ExportMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportGUI\ExportMain.Designer.cs">
+      <DependentUpon>ExportMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportGUI\PrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportGUI\PrintForm.Designer.cs">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportDetailGUI\ImportinforGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportDetailGUI\ImportinforGUI.designer.cs">
+      <DependentUpon>ImportinforGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportGUI\ImportGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportGUI\ImportGUI.designer.cs">
+      <DependentUpon>ImportGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyReportGUI\MonthlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthlyReportGUI\MonthlyReport.Designer.cs">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="namnguDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>namnguDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProductGUI\ProductChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductGUI\ProductChange.Designer.cs">
+      <DependentUpon>ProductChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductGUI\ProductInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductGUI\ProductInsert.Designer.cs">
+      <DependentUpon>ProductInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductGUI\ProductMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductGUI\ProductMain.Designer.cs">
+      <DependentUpon>ProductMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="StaffGUI\StaffGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffGUI\StaffGUI.designer.cs">
+      <DependentUpon>StaffGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeGUI\TypeChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeGUI\TypeChange.Designer.cs">
+      <DependentUpon>TypeChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeGUI\TypeInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeGUI\TypeInsert.Designer.cs">
+      <DependentUpon>TypeInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeGUI\TypeMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeGUI\TypeMain.Designer.cs">
+      <DependentUpon>TypeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserGUI\UserChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserGUI\UserChange.Designer.cs">
+      <DependentUpon>UserChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserGUI\UserInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserGUI\UserInsert.Designer.cs">
+      <DependentUpon>UserInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserGUI\UserMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserGUI\UserMain.Designer.cs">
+      <DependentUpon>UserMain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerGUI\CustomerGUI.resx">
+      <DependentUpon>CustomerGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyReportGUI\DailyReport.resx">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DegreeGUI\DegreeGUI.resx">
+      <DependentUpon>DegreeGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributorGUI\DistributorMain.resx">
+      <DependentUpon>DistributorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistributorGUI\DistributorModifier.resx">
+      <DependentUpon>DistributorModifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportDetailGUI\ExportDetailMain.resx">
+      <DependentUpon>ExportDetailMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportGUI\Export.rdlc" />
+    <EmbeddedResource Include="ExportGUI\ExportMain.resx">
+      <DependentUpon>ExportMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportGUI\PrintForm.resx">
+      <DependentUpon>PrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportDetailGUI\ImportinforGUI.resx">
+      <DependentUpon>ImportinforGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportGUI\ImportGUI.resx">
+      <DependentUpon>ImportGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyReportGUI\MonthlyReport.resx">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductGUI\ProductChange.resx">
+      <DependentUpon>ProductChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductGUI\ProductInsert.resx">
+      <DependentUpon>ProductInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductGUI\ProductMain.resx">
+      <DependentUpon>ProductMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StaffGUI\StaffGUI.resx">
+      <DependentUpon>StaffGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeGUI\TypeChange.resx">
+      <DependentUpon>TypeChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeGUI\TypeInsert.resx">
+      <DependentUpon>TypeInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeGUI\TypeMain.resx">
+      <DependentUpon>TypeMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserGUI\UserChange.resx">
+      <DependentUpon>UserChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserGUI\UserInsert.resx">
+      <DependentUpon>UserInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserGUI\UserMain.resx">
+      <DependentUpon>UserMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="namnguDataSet.xsc">
+      <DependentUpon>namnguDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="namnguDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>namnguDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="namnguDataSet.xss">
+      <DependentUpon>namnguDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\DTO.ExportDetailObject.datasource" />
+    <None Include="Properties\DataSources\DTO.ExportObject.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{205ca366-77e1-49a2-98a6-6469379014e9}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{c5825b2e-895f-4d8f-9616-be9299eedd95}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{a426791b-efcf-4921-8237-e377f12d09c4}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_add_circle_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icons8-cancel-30.png" />
+    <Content Include="Resources\icons8-delete-bin-30.png" />
+    <Content Include="Resources\icons8-insert-30.png" />
+    <Content Include="Resources\icons8-maintenance-30.png" />
+    <None Include="Resources\icons8-playstore-96.png" />
+    <Content Include="Resources\icons8-print-30.png" />
+    <Content Include="Resources\icons8-process-30.png" />
+    <Content Include="Resources\icons8-save-30.png" />
+    <Content Include="Resources\icons8-select-30.png" />
+    <Content Include="Resources\icons8-show-property-30.png" />
+    <Content Include="Resources\logos.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

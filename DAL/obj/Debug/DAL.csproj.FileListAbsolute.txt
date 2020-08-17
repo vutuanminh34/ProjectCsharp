@@ -1,0 +1,20 @@
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DTO.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DTO.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DAL.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DTO.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\bin\Debug\DTO.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\DAL\obj\Debug\DAL.pdb

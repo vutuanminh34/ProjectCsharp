@@ -1,0 +1,26 @@
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DTO.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DTO.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.pdb
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.dll.config
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.dll
+C:\Users\Windows 10\source\repos\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\BUS.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DTO.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DAL.dll.config
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\bin\Debug\DTO.pdb
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.dll
+C:\Users\Minh\Downloads\NHOM8_CSHARP_KHMT2_K12\BUS\obj\Debug\BUS.pdb

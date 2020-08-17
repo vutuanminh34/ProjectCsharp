@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="namngu" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=namngu;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="namnguConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblcustomer8" Member="tblcustomer8s">
+    <Type Name="tblcustomer8">
+      <Column Name="customer_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="customer_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="customer_birth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="customer_gender" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="customer_id_card" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="customer_address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="customer_phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tblcustomer8_tblexport8" Member="tblexport8s" ThisKey="customer_id" OtherKey="export_customer_id" Type="tblexport8" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbldegree8" Member="tbldegree8s">
+    <Type Name="tbldegree8">
+      <Column Name="degree_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="degree_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="tbldegree8_tblstaff8" Member="tblstaff8s" ThisKey="degree_id" OtherKey="staff_degree_id" Type="tblstaff8" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbldistributor8" Member="tbldistributor8s">
+    <Type Name="tbldistributor8">
+      <Column Name="distributor_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="distributor_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="distributor_address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="distributor_phone" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="distributor_email" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="tbldistributor8_tblimport8" Member="tblimport8s" ThisKey="distributor_id" OtherKey="import_distributor_id" Type="tblimport8" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblexport8" Member="tblexport8s">
+    <Type Name="tblexport8">
+      <Column Name="export_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="export_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="export_staff_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="export_customer_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="tblexport8_tblexportdetail8" Member="tblexportdetail8s" ThisKey="export_id" OtherKey="export_detail_export_id" Type="tblexportdetail8" />
+      <Association Name="tblcustomer8_tblexport8" Member="tblcustomer8" ThisKey="export_customer_id" OtherKey="customer_id" Type="tblcustomer8" IsForeignKey="true" />
+      <Association Name="tblstaff8_tblexport8" Member="tblstaff8" ThisKey="export_staff_id" OtherKey="staff_id" Type="tblstaff8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblexportdetail8" Member="tblexportdetail8s">
+    <Type Name="tblexportdetail8">
+      <Column Name="export_detail_export_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="export_detail_product_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="export_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tblexport8_tblexportdetail8" Member="tblexport8" ThisKey="export_detail_export_id" OtherKey="export_id" Type="tblexport8" IsForeignKey="true" />
+      <Association Name="tblproduct8_tblexportdetail8" Member="tblproduct8" ThisKey="export_detail_product_id" OtherKey="product_id" Type="tblproduct8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblimport8" Member="tblimport8s">
+    <Type Name="tblimport8">
+      <Column Name="import_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="import_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="import_staff_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Column Name="import_distributor_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="tblimport8_tblimportdetail8" Member="tblimportdetail8s" ThisKey="import_id" OtherKey="import_detail_import_id" Type="tblimportdetail8" />
+      <Association Name="tbldistributor8_tblimport8" Member="tbldistributor8" ThisKey="import_distributor_id" OtherKey="distributor_id" Type="tbldistributor8" IsForeignKey="true" />
+      <Association Name="tblstaff8_tblimport8" Member="tblstaff8" ThisKey="import_staff_id" OtherKey="staff_id" Type="tblstaff8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblimportdetail8" Member="tblimportdetail8s">
+    <Type Name="tblimportdetail8">
+      <Column Name="import_detail_import_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="import_detail_product_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="import_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tblimport8_tblimportdetail8" Member="tblimport8" ThisKey="import_detail_import_id" OtherKey="import_id" Type="tblimport8" IsForeignKey="true" />
+      <Association Name="tblproduct8_tblimportdetail8" Member="tblproduct8" ThisKey="import_detail_product_id" OtherKey="product_id" Type="tblproduct8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblproduct8" Member="tblproduct8s">
+    <Type Name="tblproduct8">
+      <Column Name="product_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="product_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_brand" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_image" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="product_specification" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_feature" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="product_exprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="product_imprice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="product_amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="product_type_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="tblproduct8_tblexportdetail8" Member="tblexportdetail8s" ThisKey="product_id" OtherKey="export_detail_product_id" Type="tblexportdetail8" />
+      <Association Name="tblproduct8_tblimportdetail8" Member="tblimportdetail8s" ThisKey="product_id" OtherKey="import_detail_product_id" Type="tblimportdetail8" />
+      <Association Name="tbltype8_tblproduct8" Member="tbltype8" ThisKey="product_type_id" OtherKey="type_id" Type="tbltype8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblstaff8" Member="tblstaff8s">
+    <Type Name="tblstaff8">
+      <Column Name="staff_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="staff_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="staff_birth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="staff_gender" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="staff_id_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="staff_address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="staff_phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="staff_degree_id" Type="System.String" DbType="Char(50)" CanBeNull="true" />
+      <Association Name="tblstaff8_tblexport8" Member="tblexport8s" ThisKey="staff_id" OtherKey="export_staff_id" Type="tblexport8" />
+      <Association Name="tblstaff8_tblimport8" Member="tblimport8s" ThisKey="staff_id" OtherKey="import_staff_id" Type="tblimport8" />
+      <Association Name="tbldegree8_tblstaff8" Member="tbldegree8" ThisKey="staff_degree_id" OtherKey="degree_id" Type="tbldegree8" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbltype8" Member="tbltype8s">
+    <Type Name="tbltype8">
+      <Column Name="type_id" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="type_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="tbltype8_tblproduct8" Member="tblproduct8s" ThisKey="type_id" OtherKey="product_type_id" Type="tblproduct8" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbluser8" Member="tbluser8s">
+    <Type Name="tbluser8">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="user_pass" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="user_permission" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
